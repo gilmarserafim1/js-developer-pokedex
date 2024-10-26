@@ -1,0 +1,22 @@
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#loadMore {
+    background-color: #6C7ADC;
+    border: none;
+    border-radius: 1rem;
+    color: #FFFFFF;
+    padding: 1rem;
+}
+
+#loadMore:hover {
+    cursor: pointer;
+    opacity: .7;
+    transform: scale(1.1);
+}
